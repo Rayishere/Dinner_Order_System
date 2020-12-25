@@ -21,25 +21,25 @@ for dinner order system
 
 * System Render Image
   - Categories
-    ![Category](Resources/Render_Picture/Category.png)
+  - ![Category](Resources/Render_Picture/Category.png)
   
   - Front Course
-   ![Front Course](Resources/Render_Picture/Front_Course.png)
+  - ![Front Course](Resources/Render_Picture/Front_Course.png)
   
   - Salad
-   ![Salad](Resources/Render_Picture/Salad.png)
+  - ![Salad](Resources/Render_Picture/Salad.png)
   
   - Dessert
-   ![Dessert](Resources/Render_Picture/Dessert.png)
+  - ![Dessert](Resources/Render_Picture/Dessert.png)
   
   - Drinks
-   ![Drinks](Resources/Render_Picture/Drinks.png)
+  - ![Drinks](Resources/Render_Picture/Drinks.png)
   
   - Cupon
-   ![Cupon Ticket](Resources/Render_Picture/Cupon_Ticket.png)
+  - ![Cupon Ticket](Resources/Render_Picture/Cupon_Ticket.png)
   
   - Selection Result
-   ![Selected Result](Resources/Render_Picture/Selected_Result.png)
+  - ![Selected Result](Resources/Render_Picture/Selected_Result.png)
   
   - Checkout
-   ![Checkout](Resources/Render_Picture/Checkout.png)
+  - ![Checkout](Resources/Render_Picture/Checkout.png)
