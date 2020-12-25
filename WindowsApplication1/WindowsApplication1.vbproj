@@ -348,7 +348,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-    <None Include="Readme.md" />
+    <None Include="README.md" />
     <None Include="資料庫2DataSet.xsc">
       <DependentUpon>資料庫2DataSet.xsd</DependentUpon>
     </None>
