@@ -6,8 +6,8 @@ for dinner order system
 
 ***
 
-Purpose 
-  : project for designing a dinner system.
+*Purpose 
+  -project for designing a dinner system.
 
 Environment 
   : Visual Studio Community
@@ -22,17 +22,24 @@ Programming Language
 System Render Image
   : Categories
    ![Category](Resources/Render_Picture/Category.png)
+  
   : Front Course
   ![Front Course](Resources/Render_Picture/Front_Course.png)
+  
   : Salad
   ![Salad](Resources/Render_Picture/Salad.png)
+  
   : Dessert
   ![Dessert](Resources/Render_Picture/Dessert.png)
+  
   : Drinks
   ![Drinks](Resources/Render_Picture/Drinks.png)
+  
   : Cupon
   ![Cupon Ticket](Resources/Render_Picture/Cupon_Ticket.png)
+  
   : Selection Result
   ![Selected Result](Resources/Render_Picture/Selected_Result.png)
+  
   : Checkout
   ![Checkout](Resources/Render_Picture/Checkout.png)
