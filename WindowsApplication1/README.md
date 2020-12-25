@@ -21,7 +21,7 @@ for dinner order system
 
 * System Render Image
   - Categories
-   ![Category](Resources/Render_Picture/Category.png)
+    ![Category](Resources/Render_Picture/Category.png)
   
   - Front Course
    ![Front Course](Resources/Render_Picture/Front_Course.png)
