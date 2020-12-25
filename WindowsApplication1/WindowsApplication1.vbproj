@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D5BFC2BD-32BF-449E-88FA-4A7E60D19B58}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>WindowsApplication1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="beef.Designer.vb">
+      <DependentUpon>beef.vb</DependentUpon>
+    </Compile>
+    <Compile Include="beef.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="before.Designer.vb">
+      <DependentUpon>before.vb</DependentUpon>
+    </Compile>
+    <Compile Include="before.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="blacktea.Designer.vb">
+      <DependentUpon>blacktea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="blacktea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bread.Designer.vb">
+      <DependentUpon>bread.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bread.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chocolate.Designer.vb">
+      <DependentUpon>chocolate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="chocolate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="corn.Designer.vb">
+      <DependentUpon>corn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="corn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dessert.Designer.vb">
+      <DependentUpon>dessert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dessert.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drink.Designer.vb">
+      <DependentUpon>drink.vb</DependentUpon>
+    </Compile>
+    <Compile Include="drink.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="greentea.Designer.vb">
+      <DependentUpon>greentea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="greentea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lottery.Designer.vb">
+      <DependentUpon>Lottery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lottery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oolongtea.Designer.vb">
+      <DependentUpon>oolongtea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="oolongtea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="noodle.Designer.vb">
+      <DependentUpon>noodle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="noodle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="redbeansoup.Designer.vb">
+      <DependentUpon>redbeansoup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="redbeansoup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rice.Designer.vb">
+      <DependentUpon>rice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salad.Designer.vb">
+      <DependentUpon>salad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="salad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="seafood.Designer.vb">
+      <DependentUpon>seafood.vb</DependentUpon>
+    </Compile>
+    <Compile Include="seafood.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="soup.Designer.vb">
+      <DependentUpon>soup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="soup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suffla.Designer.vb">
+      <DependentUpon>suffla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="suffla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tomato.Designer.vb">
+      <DependentUpon>tomato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tomato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="total.Designer.vb">
+      <DependentUpon>total.vb</DependentUpon>
+    </Compile>
+    <Compile Include="total.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Select.Designer.vb">
+      <DependentUpon>Select.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Select.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderPreview.Designer.vb">
+      <DependentUpon>OrderPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OrderPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zutsai.Designer.vb">
+      <DependentUpon>Zutsai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Zutsai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="資料庫2DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>資料庫2DataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="beef.resx">
+      <DependentUpon>beef.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="before.resx">
+      <DependentUpon>before.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="blacktea.resx">
+      <DependentUpon>blacktea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bread.resx">
+      <DependentUpon>bread.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chocolate.resx">
+      <DependentUpon>chocolate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="corn.resx">
+      <DependentUpon>corn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dessert.resx">
+      <DependentUpon>dessert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drink.resx">
+      <DependentUpon>drink.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="greentea.resx">
+      <DependentUpon>greentea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oolongtea.resx">
+      <DependentUpon>oolongtea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="noodle.resx">
+      <DependentUpon>noodle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="redbeansoup.resx">
+      <DependentUpon>redbeansoup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rice.resx">
+      <DependentUpon>rice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lottery.resx">
+      <DependentUpon>Lottery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salad.resx">
+      <DependentUpon>salad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="seafood.resx">
+      <DependentUpon>seafood.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Select.resx">
+      <DependentUpon>Select.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderPreview.resx">
+      <DependentUpon>OrderPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="soup.resx">
+      <DependentUpon>soup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suffla.resx">
+      <DependentUpon>suffla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tomato.resx">
+      <DependentUpon>tomato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="total.resx">
+      <DependentUpon>total.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zutsai.resx">
+      <DependentUpon>Zutsai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="資料庫2DataSet.xsc">
+      <DependentUpon>資料庫2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="資料庫2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>資料庫2DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="資料庫2DataSet.xss">
+      <DependentUpon>資料庫2DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1747561.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2345截图20160105174125.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2345截图20160105174836.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2345截图20160110153801.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\玫瑰花.jpg" />
+    <None Include="Resources\flower_flower_pattern_sweet_pink_47559_m.jpg" />
+    <Content Include="資料庫2.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
